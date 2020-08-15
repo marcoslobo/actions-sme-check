@@ -1,0 +1,8 @@
+name: 'SME-Master-Flow'
+description: 'Verificar se existem Pull Requests abertos para as demais branches necessarias'
+outputs:
+  sucesso: # id of output
+    description: 'Se houve sucesso no fluxo'
+runs:
+  using: 'node12'
+  main: 'index.js'
